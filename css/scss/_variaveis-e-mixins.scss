@@ -2,7 +2,7 @@
 $bege-claro: #edece4;
 $bege-medio: #cbc6b9;
 $bege-escuro: #988c77;
-//$verde:
+$verde: #1ab912;
 $cinza: #2a2426;
 
 //Fontes
@@ -27,7 +27,7 @@ $fonte-2: "Aref Ruqaa", serif;
   @if $size == 18 {
     font-size: em(18);
     line-height: em(30, 18);
-  } @else if $size == 18 {
+  } @else if $size == 24 {
     font-size: em(24);
     line-height: em(30, 24);
   }
